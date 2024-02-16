@@ -24,7 +24,10 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     otapreopt_script \
+    fastbootd \
     cppreopts.sh \
     update_engine \
     update_verifier \
     update_engine_sideload
+
+PRODUCT_USE_DYNAMIC_PARTITIONS := true
